@@ -764,3 +764,82 @@ Received Import Request.
 Start importing Assets/Scripts/NewLayer.terrainlayer using Guid(0f58802dade11bc4d968bbe3bf5d396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f011bff17dfa96fb8960695f7e5a7420') in 0.025459 seconds
   Import took 0.027179 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2690.636813 seconds.
+  path: Assets/Materials/CarGameMap.png
+  artifactKey: Guid(33752a3c156415646b4aa461336dcfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CarGameMap.png using Guid(33752a3c156415646b4aa461336dcfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd4e65c63b687bf0e668dc15f0593cf') in 0.070258 seconds
+  Import took 0.072221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.971244 seconds.
+  path: Assets/Materials/CarGameMap.png
+  artifactKey: Guid(33752a3c156415646b4aa461336dcfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CarGameMap.png using Guid(33752a3c156415646b4aa461336dcfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f58af493be92a098e0dc230f7901fa') in 0.011587 seconds
+  Import took 0.013346 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.6 MB.
+System memory in use after: 62.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 1.257700 ms (FindLiveObjects: 0.128000 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.050400 ms  DeleteObjects: 0.046100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.684530 seconds.
+  path: Assets/Scripts/NewLayer.terrainlayer
+  artifactKey: Guid(0f58802dade11bc4d968bbe3bf5d396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewLayer.terrainlayer using Guid(0f58802dade11bc4d968bbe3bf5d396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a430c01b46729b8292f9485722da0bfa') in 0.033693 seconds
+  Import took 0.035458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001366 seconds.
+  path: Assets/Scripts/NewLayer.terrainlayer
+  artifactKey: Guid(0f58802dade11bc4d968bbe3bf5d396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewLayer.terrainlayer using Guid(0f58802dade11bc4d968bbe3bf5d396a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a430c01b46729b8292f9485722da0bfa') in 0.007596 seconds
+  Import took 0.009491 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.8 MB.
+System memory in use after: 62.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 1.603700 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.300800 ms  DeleteObjects: 0.057900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
