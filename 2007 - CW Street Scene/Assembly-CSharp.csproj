@@ -63,6 +63,9 @@
     <Compile Include="Assets\Scripts\CameraTarget.cs" />
     <Compile Include="Assets\Scripts\CarMass.cs" />
     <Compile Include="Assets\UIAssets\ImageAnimation.cs" />
+    <Compile Include="Assets\Scripts\coinRotate.cs" />
+    <Compile Include="Assets\Scripts\CollectScore.cs" />
+    <Compile Include="Assets\Scripts\ScoreDisplayer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
