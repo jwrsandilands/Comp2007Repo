@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\coinRotate.cs" />
     <Compile Include="Assets\Scripts\CollectScore.cs" />
     <Compile Include="Assets\Scripts\ScoreDisplayer.cs" />
+    <Compile Include="Assets\Scripts\PauseControl.cs" />
+    <Compile Include="Assets\Scripts\MenuStartup.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

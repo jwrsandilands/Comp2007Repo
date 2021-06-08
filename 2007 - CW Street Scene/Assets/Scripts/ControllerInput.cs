@@ -17,17 +17,21 @@ public class ControllerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //send a ray to the ground.
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hitData;
-        //if the ground is hit, update the cursor position
-        if (ground.Raycast(ray, out hitData, 1000))
+        //check if paused
+        if (!PauseControl.pauseGame)
         {
+            //send a ray to the ground.
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hitData;
+            //if the ground is hit, update the cursor position
+            if (ground.Raycast(ray, out hitData, 1000))
+            {
 
-            worldPosition = hitData.point;
+                worldPosition = hitData.point;
+            }
+
+            //update the cursor position
+            transform.position = worldPosition;
         }
-
-        //update the cursor position
-        transform.position = worldPosition;
     }
 }

@@ -17,60 +17,64 @@ public class CarControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //find angle between car and mouse
-        Vector3 turnVector = mousePos.position - carPos.position;
-        Vector3 carForward = transform.forward;
+        //check if paused
+        if (!PauseControl.pauseGame)
+        {
+            //find angle between car and mouse
+            Vector3 turnVector = mousePos.position - carPos.position;
+            Vector3 carForward = transform.forward;
 
-        float carAngle = Vector3.Angle(carForward, turnVector);
-        Vector2 cross = Vector3.Cross(carForward, turnVector);
-        if(cross.y < 0)
-        {
-            carAngle = -carAngle;
-        }
-
-        float steerAngle;
-        if (carAngle < -maxTurnAngle)
-        {
-            steerAngle = -maxTurnAngle;
-        }
-        else if(carAngle > maxTurnAngle)
-        {
-            steerAngle = maxTurnAngle;
-        }
-        else
-        {
-            steerAngle = carAngle;
-        }
-        steerAngle = steerAngle / maxTurnAngle;
-
-        //Dedicate turning and driving wheels (based on unity demo car code)
-        float motor;
-        float drive = 0;
-        
-        if (Input.GetMouseButton(0))
-        {
-            drive = 1;
-        }
-        else if (Input.GetMouseButton(1))
-        {
-            drive = -1;
-        }
-        drive = Mathf.Lerp(drive, 0, 0.03f);
-        motor = maxMotorTorque * drive;
-
-        float steering = maxSteeringAngle * steerAngle;
-
-        foreach (AxleInfo axleInfo in axleInfos)
-        {
-            if (axleInfo.steering)
+            float carAngle = Vector3.Angle(carForward, turnVector);
+            Vector2 cross = Vector3.Cross(carForward, turnVector);
+            if (cross.y < 0)
             {
-                axleInfo.leftWheel.steerAngle = steering;
-                axleInfo.rightWheel.steerAngle = steering;
+                carAngle = -carAngle;
             }
-            if (axleInfo.motor)
+
+            float steerAngle;
+            if (carAngle < -maxTurnAngle)
             {
-                axleInfo.leftWheel.motorTorque = motor;
-                axleInfo.rightWheel.motorTorque = motor;
+                steerAngle = -maxTurnAngle;
+            }
+            else if (carAngle > maxTurnAngle)
+            {
+                steerAngle = maxTurnAngle;
+            }
+            else
+            {
+                steerAngle = carAngle;
+            }
+            steerAngle = steerAngle / maxTurnAngle;
+
+            //Dedicate turning and driving wheels (based on unity demo car code)
+            float motor;
+            float drive = 0;
+
+            if (Input.GetMouseButton(0))
+            {
+                drive = 1;
+            }
+            else if (Input.GetMouseButton(1))
+            {
+                drive = -1;
+            }
+            drive = Mathf.Lerp(drive, 0, 0.03f);
+            motor = maxMotorTorque * drive;
+
+            float steering = maxSteeringAngle * steerAngle;
+
+            foreach (AxleInfo axleInfo in axleInfos)
+            {
+                if (axleInfo.steering)
+                {
+                    axleInfo.leftWheel.steerAngle = steering;
+                    axleInfo.rightWheel.steerAngle = steering;
+                }
+                if (axleInfo.motor)
+                {
+                    axleInfo.leftWheel.motorTorque = motor;
+                    axleInfo.rightWheel.motorTorque = motor;
+                }
             }
         }
     }
