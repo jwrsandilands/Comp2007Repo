@@ -72,6 +72,8 @@
     <Compile Include="Assets\Scripts\MenuStartup.cs" />
     <Compile Include="Assets\Scripts\CarMass.cs" />
     <Compile Include="Assets\Scripts\UIResumeButton.cs" />
+    <Compile Include="Assets\Scripts\MainMenuStartButton.cs" />
+    <Compile Include="Assets\Scripts\GameQuitButton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
