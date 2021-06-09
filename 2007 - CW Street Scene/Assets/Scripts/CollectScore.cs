@@ -18,5 +18,18 @@ public class CollectScore : MonoBehaviour
             Destroy(other.gameObject);
             AudioSource.PlayClipAtPoint(coinAudio, cameraMic.transform.position);
         }
+        if(other.tag == "Cone")
+        {
+            if(playerScore >= 30)
+            {
+                playerScore -= coinScore * 3;
+            }
+            else
+            {
+                playerScore -= playerScore;
+            }
+
+            Destroy(other.gameObject);
+        }
     }
 }
