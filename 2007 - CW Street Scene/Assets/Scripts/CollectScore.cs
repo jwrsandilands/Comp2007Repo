@@ -6,6 +6,9 @@ public class CollectScore : MonoBehaviour
 {
     public int coinScore;
     public int playerScore;
+    public AudioClip coinAudio;
+    public GameObject cameraMic;
+    
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,6 +16,7 @@ public class CollectScore : MonoBehaviour
         {
             playerScore += coinScore;
             Destroy(other.gameObject);
+            AudioSource.PlayClipAtPoint(coinAudio, cameraMic.transform.position);
         }
     }
 }

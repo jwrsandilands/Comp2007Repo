@@ -8,6 +8,7 @@ public class PauseControl : MonoBehaviour
     public static bool gameOver;
     public GameObject GameUI, PauseUI;
     public GameObject car;
+    public GameObject carEngine;
     
 
     // Update is called once per frame
@@ -33,6 +34,7 @@ public class PauseControl : MonoBehaviour
             GameUI.SetActive(false);
             PauseUI.SetActive(true);
             car.GetComponent<AudioSource>().Pause();
+            carEngine.GetComponent<AudioSource>().Pause();
         }
         else
         {
@@ -40,6 +42,7 @@ public class PauseControl : MonoBehaviour
             GameUI.SetActive(true);
             PauseUI.SetActive(false);
             car.GetComponent<AudioSource>().Play();
+            carEngine.GetComponent<AudioSource>().Play();
         }
     }
 
@@ -47,5 +50,6 @@ public class PauseControl : MonoBehaviour
     {
         Time.timeScale = 0f;
         car.GetComponent<AudioSource>().Stop();
+        carEngine.GetComponent<AudioSource>().Stop();
     }
 }

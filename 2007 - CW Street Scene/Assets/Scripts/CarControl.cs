@@ -18,7 +18,7 @@ public class CarControl : MonoBehaviour
     void Update()
     {
         //check if paused
-        if (!PauseControl.pauseGame)
+        if (!PauseControl.pauseGame && !PauseControl.gameOver)
         {
             //find angle between car and mouse
             Vector3 turnVector = mousePos.position - carPos.position;

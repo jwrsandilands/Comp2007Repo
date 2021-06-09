@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\CarMass.cs" />
     <Compile Include="Assets\Scripts\TimeDisplayer.cs" />
     <Compile Include="Assets\Scripts\TimeRemaining.cs" />
+    <Compile Include="Assets\Scripts\CarEnginePitch.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

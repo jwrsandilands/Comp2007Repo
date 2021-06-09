@@ -24245,6 +24245,10 @@ PrefabInstance:
       propertyPath: UIstuff
       value: 
       objectReference: {fileID: 803013180}
+    - target: {fileID: 3919422106964289170, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
+      propertyPath: carEngine
+      value: 
+      objectReference: {fileID: 1877857259}
     - target: {fileID: 4099651085727352624, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
       propertyPath: m_WheelDampingRate
       value: 15
@@ -27611,6 +27615,122 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3981382350279079534, guid: 30d5020f231edeb49817bcb305b2688e, type: 3}
   m_PrefabInstance: {fileID: 554686403}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1877857259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3675613263850738887, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
+  m_PrefabInstance: {fileID: 1612009370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1877857262
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877857259}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -2896819598133059475, guid: 076bf72f4f731dd409f7763cd5719268, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 0505c4f5e541d0d4dad9865637076e40, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1877857263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877857259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9092984159cb9e54fbb9fa3503edcc79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carBody: {fileID: 1877857259}
+  enginePitch: 0.4
+  highEnginePitch: 0.75
 --- !u!1001 &1879296621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29495,6 +29615,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinScore: 10
   playerScore: 0
+  coinAudio: {fileID: 8300000, guid: 8d0b55d8bf287d447a69745ef348ccf3, type: 3}
+  cameraMic: {fileID: 0}
 --- !u!114 &2001463078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29507,7 +29629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3800abbd17ee5ed4f8596cd2268a3c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTime: 5
+  gameTime: 180
   timeToSeconds: 0
   timeToMinutes: 0
   alarm: 0
@@ -29521,7 +29643,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 076bf72f4f731dd409f7763cd5719268, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 6e654981aae0f384e91acf4452af2b44, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 72bc11ab4bb6f9b4d898f12b2e888bde, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
