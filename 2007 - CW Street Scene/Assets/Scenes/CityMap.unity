@@ -32622,6 +32622,7 @@ MonoBehaviour:
   coinScore: 10
   playerScore: 0
   coinAudio: {fileID: 8300000, guid: 8d0b55d8bf287d447a69745ef348ccf3, type: 3}
+  coneAudio: {fileID: 8300000, guid: eaec13e7873a76548be09a06b225a1dc, type: 3}
   cameraMic: {fileID: 1006065931}
 --- !u!114 &2001463078
 MonoBehaviour:
