@@ -62,15 +62,16 @@
     <Compile Include="Assets\Scripts\PauseControl.cs" />
     <Compile Include="Assets\Scripts\coinRotate.cs" />
     <Compile Include="Assets\UIAssets\ImageAnimation.cs" />
+    <Compile Include="Assets\Scripts\CarEnginePitch.cs" />
+    <Compile Include="Assets\Scripts\TimeDisplayer.cs" />
     <Compile Include="Assets\Scripts\CarControl.cs" />
     <Compile Include="Assets\Scripts\ControllerInput.cs" />
+    <Compile Include="Assets\Scripts\TimeRemaining.cs" />
     <Compile Include="Assets\Scripts\CameraTarget.cs" />
     <Compile Include="Assets\Scripts\ScoreDisplayer.cs" />
     <Compile Include="Assets\Scripts\MenuStartup.cs" />
     <Compile Include="Assets\Scripts\CarMass.cs" />
-    <Compile Include="Assets\Scripts\TimeDisplayer.cs" />
-    <Compile Include="Assets\Scripts\TimeRemaining.cs" />
-    <Compile Include="Assets\Scripts\CarEnginePitch.cs" />
+    <Compile Include="Assets\Scripts\UIResumeButton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

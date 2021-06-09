@@ -13817,6 +13817,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6537c5b7974c66b45a3b6c324b0cbef2, type: 3}
+--- !u!114 &821833723 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1083673120261061745, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+  m_PrefabInstance: {fileID: 6246216027530322724}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &823600782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3981382350279079534, guid: 30d5020f231edeb49817bcb305b2688e, type: 3}
@@ -26821,6 +26832,10 @@ PrefabInstance:
       propertyPath: carEngine
       value: 
       objectReference: {fileID: 1877857259}
+    - target: {fileID: 3919422106964289170, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
+      propertyPath: UIResumeBtn
+      value: 
+      objectReference: {fileID: 821833723}
     - target: {fileID: 4099651085727352624, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
       propertyPath: m_WheelDampingRate
       value: 15

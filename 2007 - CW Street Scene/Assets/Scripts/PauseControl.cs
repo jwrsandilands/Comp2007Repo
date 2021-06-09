@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseControl : MonoBehaviour
 {
@@ -9,14 +10,16 @@ public class PauseControl : MonoBehaviour
     public GameObject GameUI, PauseUI;
     public GameObject car;
     public GameObject carEngine;
+    public Button UIResumeBtn;
     
 
     // Update is called once per frame
     void Update()
     {
         //if escape is pressed pause the game
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || UIResumeBtn.GetComponent<UIResumeButton>().clicked)
         {
+            UIResumeBtn.GetComponent<UIResumeButton>().clicked = false;
             pauseGame = !pauseGame;
             PauseGameControl();
         }
