@@ -8675,6 +8675,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8351234220790545644, guid: 6aa95a33c888f5844b6ce1fb45ea3aba, type: 3}
   m_PrefabInstance: {fileID: 141874514}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &467465930 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5332207392890200050, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+  m_PrefabInstance: {fileID: 6246216027530322724}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &470701042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24563,6 +24574,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1862316540679634807, guid: 8c00231537f871749bee1623018b42ac, type: 3}
   m_PrefabInstance: {fileID: 722410475}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1471262949 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7067307345993298952, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+  m_PrefabInstance: {fileID: 6246216027530322724}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1473865127 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1862316540679634807, guid: 8c00231537f871749bee1623018b42ac, type: 3}
@@ -26841,6 +26863,14 @@ PrefabInstance:
       propertyPath: GameOverUI
       value: 
       objectReference: {fileID: 448428190}
+    - target: {fileID: 3919422106964289170, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
+      propertyPath: UIQuitBtn1
+      value: 
+      objectReference: {fileID: 1471262949}
+    - target: {fileID: 3919422106964289170, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
+      propertyPath: UIQuitBtn2
+      value: 
+      objectReference: {fileID: 467465930}
     - target: {fileID: 3919422106964289170, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
       propertyPath: UIResumeBtn
       value: 
@@ -32660,7 +32690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3800abbd17ee5ed4f8596cd2268a3c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTime: 180
+  gameTime: 5
   timeToSeconds: 0
   timeToMinutes: 0
   alarm: 0
@@ -35105,7 +35135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6081798737287515402, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -78.07379
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6246216028088885528, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
       propertyPath: m_Name

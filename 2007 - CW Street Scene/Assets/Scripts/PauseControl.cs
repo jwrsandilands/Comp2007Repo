@@ -5,13 +5,20 @@ using UnityEngine.UI;
 
 public class PauseControl : MonoBehaviour
 {
+    //variables
     public static bool pauseGame;
     public static bool gameOver;
     public GameObject GameUI, PauseUI, GameOverUI;
     public GameObject car;
     public GameObject carEngine;
     public Button UIResumeBtn;
-    
+
+    private void Start()
+    {
+        pauseGame = false;
+        gameOver = false;
+        PauseGameControl();
+    }
 
     // Update is called once per frame
     void Update()
