@@ -8686,8 +8686,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6640752913137519809, guid: 726c067437a9a4641886bcac40a2085b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23584908
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640752913137519809, guid: 726c067437a9a4641886bcac40a2085b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.22960196
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640752913137519809, guid: 726c067437a9a4641886bcac40a2085b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.1546369
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640752913137519809, guid: 726c067437a9a4641886bcac40a2085b, type: 3}
       propertyPath: m_Intensity
       value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640752913137519809, guid: 726c067437a9a4641886bcac40a2085b, type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.312
       objectReference: {fileID: 0}
     - target: {fileID: 6640752913137519810, guid: 726c067437a9a4641886bcac40a2085b, type: 3}
       propertyPath: m_Name
