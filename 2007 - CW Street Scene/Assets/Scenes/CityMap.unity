@@ -28837,6 +28837,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinScore: 10
   playerScore: 0
+--- !u!114 &2001463078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001463070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3800abbd17ee5ed4f8596cd2268a3c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTime: 180
+  timeToSeconds: 0
+  timeToMinutes: 0
+  alarm: 0
 --- !u!1001 &2004069037
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -56,18 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CollectScore.cs" />
     <Compile Include="Assets\Scripts\WheelsToPhysics.cs" />
     <Compile Include="Assets\Scripts\CarTarget.cs" />
+    <Compile Include="Assets\Scripts\PauseControl.cs" />
+    <Compile Include="Assets\Scripts\coinRotate.cs" />
+    <Compile Include="Assets\UIAssets\ImageAnimation.cs" />
     <Compile Include="Assets\Scripts\CarControl.cs" />
     <Compile Include="Assets\Scripts\ControllerInput.cs" />
     <Compile Include="Assets\Scripts\CameraTarget.cs" />
-    <Compile Include="Assets\Scripts\CarMass.cs" />
-    <Compile Include="Assets\UIAssets\ImageAnimation.cs" />
-    <Compile Include="Assets\Scripts\coinRotate.cs" />
-    <Compile Include="Assets\Scripts\CollectScore.cs" />
     <Compile Include="Assets\Scripts\ScoreDisplayer.cs" />
-    <Compile Include="Assets\Scripts\PauseControl.cs" />
     <Compile Include="Assets\Scripts\MenuStartup.cs" />
+    <Compile Include="Assets\Scripts\CarMass.cs" />
+    <Compile Include="Assets\Scripts\TimeDisplayer.cs" />
+    <Compile Include="Assets\Scripts\TimeRemaining.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -676,6 +678,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -684,9 +689,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
