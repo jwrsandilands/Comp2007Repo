@@ -32690,7 +32690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3800abbd17ee5ed4f8596cd2268a3c44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameTime: 5
+  gameTime: 180
   timeToSeconds: 0
   timeToMinutes: 0
   alarm: 0
