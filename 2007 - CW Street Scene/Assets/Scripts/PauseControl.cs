@@ -7,7 +7,7 @@ public class PauseControl : MonoBehaviour
 {
     public static bool pauseGame;
     public static bool gameOver;
-    public GameObject GameUI, PauseUI;
+    public GameObject GameUI, PauseUI, GameOverUI;
     public GameObject car;
     public GameObject carEngine;
     public Button UIResumeBtn;
@@ -52,6 +52,9 @@ public class PauseControl : MonoBehaviour
     void StopGame()
     {
         Time.timeScale = 0f;
+        GameUI.SetActive(false);
+        PauseUI.SetActive(false);
+        GameOverUI.SetActive(true);
         car.GetComponent<AudioSource>().Stop();
         carEngine.GetComponent<AudioSource>().Stop();
     }

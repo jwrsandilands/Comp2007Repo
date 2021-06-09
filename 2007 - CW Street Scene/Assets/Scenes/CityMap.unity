@@ -8526,6 +8526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c00231537f871749bee1623018b42ac, type: 3}
+--- !u!1 &448428190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 863781736877252555, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+  m_PrefabInstance: {fileID: 6246216027530322724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &449622996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1862316540679634807, guid: 8c00231537f871749bee1623018b42ac, type: 3}
@@ -26833,6 +26838,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1877857259}
     - target: {fileID: 3919422106964289170, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
+      propertyPath: GameOverUI
+      value: 
+      objectReference: {fileID: 448428190}
+    - target: {fileID: 3919422106964289170, guid: 4f2c200b606a47748b01a19f71dcdada, type: 3}
       propertyPath: UIResumeBtn
       value: 
       objectReference: {fileID: 821833723}
@@ -35058,6 +35067,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 870910362226753497, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 870910362226753497, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 870910362226753497, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 482.0976
+      objectReference: {fileID: 0}
+    - target: {fileID: 870910362226753497, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 88.425
+      objectReference: {fileID: 0}
+    - target: {fileID: 870910362226753497, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 870910362226753497, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9.400002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018551547219140330, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018551547219140330, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.3999634
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081798737287515402, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081798737287515402, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -78.07379
+      objectReference: {fileID: 0}
     - target: {fileID: 6246216028088885528, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
       propertyPath: m_Name
       value: Screen UI
@@ -35161,6 +35210,22 @@ PrefabInstance:
     - target: {fileID: 7367844890960897263, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765632135747335892, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: gameOverMenuUI
+      value: 
+      objectReference: {fileID: 448428190}
+    - target: {fileID: 8037845447053788742, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037845447053788742, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037845447053788742, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 49
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53f70dfdb6e9e4e478cbb99e6f4741ff, type: 3}

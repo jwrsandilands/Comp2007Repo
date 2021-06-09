@@ -17,8 +17,8 @@ public class ControllerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //check if paused
-        if (!PauseControl.pauseGame)
+        //check if paused or if game is over
+        if (!PauseControl.pauseGame && !PauseControl.gameOver)
         {
             //send a ray to the ground.
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
